@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Level1/>
-      
+      <button type="button" onClick={ refreshPage }> <span>Reload</span> </button>
        {/* <Level2/> */}
     </div>
   )
